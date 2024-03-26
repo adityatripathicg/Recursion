@@ -14,6 +14,10 @@ public class duplicates {
             map[Character.toLowerCase(currChar)-'a'] = true;
             removeDuplicates(str, idx+1, newStr.append(currChar), map);
         }
+        // // else{
+        //     map[Character.toLowerCase(currChar)-'a'] = true;
+        //     removeDuplicates(str, idx+1, newStr.append(currChar), map);
+        // }
     }
     public static void main(String[] args) {
         String str = "Aaddiittyyaa";
